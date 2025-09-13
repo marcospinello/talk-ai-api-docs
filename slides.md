@@ -1,8 +1,7 @@
-
 ---
 marp: true
-theme: dracula
-footer: 'https://example.com'
+theme: gaia
+footer: 'Marp Presentation Examples'
 ---
 
 <script type="module">
@@ -10,13 +9,92 @@ footer: 'https://example.com'
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-# 1. Sample Presentation
-![bg right](https://picsum.photos/800/600)
+# 1. Marp Presentation Examples
+
+An overview of what you can do with Marp.
 
 ---
 
-<!-- Speaker Notes -->
-## 2. Speaker nots and Lists
+## 2. Text, Lists, and Tables
+
+You can format text as **bold**, *italic*, or `code`.
+
+- Unordered List Item 1
+- Unordered List Item 2
+
+1. Ordered List Item 1
+2. Ordered List Item 2
+
+| Header 1 | Header 2 |
+| :--- | :--- |
+| Cell 1 | Cell 2 |
+| Cell 3 | Cell 4 |
+
+---
+
+## 3. Code Examples
+
+```python
+import marp
+
+def hello_marp():
+    """This is a sample function."""
+    print("Hello, Marp!")
+
+hello_marp()
+```
+
+---
+
+## 4. Mermaid Diagrams
+
+<div class="mermaid">
+graph TD
+    A[Start] --> B{Is it Friday?};
+    B -- Yes --> C[Relax!];
+    B -- No --> D[Keep working...];
+    C --> E[End];
+    D --> E[End];
+</div>
+
+---
+
+## 5. Images
+
+![bg right:40%](https://picsum.photos/800/600)
+
+You can include local images in your slides.
+
+This image is from your `assets/img` folder.
+
+---
+
+## 6. Videos
+
+You can also embed videos from sources like YouTube.
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/k_3Qp2ocI40" frameborder="0"></iframe>
+
+---
+
+<!-- backgroundColor: #2a2a2a -->
+## 7. Marp Directives
+
+Directives control the appearance of your slides.
+
+**Global Directives (in the top YAML section):**
+- `theme`: `gaia`, `default`, `uncover`
+- `size`: `16:9` (default), `4:3`
+- `paginate`: `true` (shows page numbers)
+
+**Local Directives (for a single slide):**
+- `<!-- backgroundColor: #2a2a2a -->`
+- `<!-- color: #ffffff -->`
+- `<!-- header: 'Custom Slide Header' -->`
+
+---
+
+## 8. Speaker nots and Lists
 
 - Item 1
 - Item 2
@@ -25,7 +103,7 @@ footer: 'https://example.com'
 
 ---
 
-## 3. Speaker notes and images
+## 9. Speaker notes and images
 <!-- Can also do a multiline
 comment that will show in notes -->
 
@@ -33,7 +111,7 @@ comment that will show in notes -->
 
 ---
 
-## 4. Centered images
+## 10. Centered images
 
 You can center images
 
@@ -41,13 +119,13 @@ You can center images
 
 ---
 
-## 5. Slide 4
+## 11. Slide 4
 
 > This is a quote.
 
 ---
 
-## 6. Tables
+## 12. Tables
 
 | Column 1 | Column 2 |
 | -------- | -------- |
@@ -57,7 +135,7 @@ You can center images
 ---
 
 ![bg opacity](https://picsum.photos/800/600?image=53)
-## 7. Columns
+## 13. Columns
 
 <div class="columns">
 <div>
@@ -80,7 +158,7 @@ You can center images
 
 ---
 
-## 8. Icons
+## 14. Icons
 
 <i class="fa-brands fa-twitter"></i> Twitter: 
 <i class="fa-brands fa-mastodon"></i> Mastodon: 
@@ -90,7 +168,7 @@ You can center images
 
 ---
 
-# 9. <!--fit--> Large Text
+# 15. <!--fit--> Large Text
 
 ---
 
@@ -100,7 +178,7 @@ You can center images
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-# 10. Mermaid
+# 16. Mermaid
 
 <div class="mermaid">
 graph TD;
