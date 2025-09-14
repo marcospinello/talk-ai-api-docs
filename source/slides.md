@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dracula
-headingDivider: 2
 header: ''
 footer: ''
 paginate: true
@@ -13,8 +12,12 @@ style: |
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css'
 ---
 
-<script
-    src="https://kit.fontawesome.com/51cb23fdb1.js" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/51cb23fdb1.js" crossorigin="anonymous"></script>
+
+<!-- Add this anywhere in your Markdown file -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
 </script>
 
 ## When AI goes off piste
@@ -43,85 +46,107 @@ Booking.com
 
 ---
 
-# Split backgrounds
+## About me
 
-The space of a slide content will shrink to the right side.
+![bg left:50%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/valley-of-fires-105.jpg)
 
-
-
-#### The good
-
-#### The bad
-
-#### The ugly
-
-An overview of what you can do with Marp.
+- Tech writer with no CS background
+- Before AI, Google and StackOverflow were my job security
+- As curious as a cat
 
 ---
 
-## Docs
+## Docs automation
 
+Docs automation workflow main ingredients:
+
+- CI/CD pipelines
+- Lots of scripts and config files
+- Containers
+- APIs for data exchange and interoperability
+
+...
 
 ---
 
-## AI
+![bg left:60%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-generated-8583250_1280.jpg)
+
+Oh yes and AI to turn a robust pipeline into a house of cards
 
 ---
 
-## APIs
+## AI-enhanced docs pipelines
+
+AI helps automate ancillary tasks:
+
+- Simple
+- Repetitive
+- Time-consuming
 
 ---
 
-## The good
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-1.jpg)
 
-APIs
+---
 
-- orchestrators
+So far, results have been a rather mixed bag.
+
+Let's dig into the good, the bad, and the ugly.
+
+---
+
+## Good
+
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-2.jpg)  
+
+---
+
+## Bad
+
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-3.jpg)
+
+---
+
+## Ugly
+
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-4.jpg)
+
+---
+
+## The value of APIs
+
+- orchestrators:
+  - coordinate AI agents
+  - manage tasks (queue, run, monitor)
+  - trigger actions (ex: webhooks)
+  - trigger notifications
+
 - gophers
-
-
----
-
-## The bad
-
-Docs
+  - CRUD on data
+  - AI sidekick when using MCP tools and resources
 
 ---
 
-## The ugly
-
-AI
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows.jpg)
 
 ---
 
+## AI fails
 
-
-
-## 5. Images
-
-![bg right:40%](https://picsum.photos/800/600)
-
-You can include local images in your slides.
-
-This image is from your `assets/img` folder.
+- [Therapy chatbot](https://futurism.com/therapy-chatbot-addict-meth)
+- [Blackmailing colleague](https://www.bbc.com/news/articles/cpqeng9d20go)
+- [Lying an scheming](https://time.com/7202784/ai-research-strategic-lying/)
+- [Running a company](https://futurism.com/professors-company-ai-agents) \
+  See also [The Agent Company](https://the-agent-company.com/)
+- [Customer support](https://futurism.com/klarna-ai-automation-engineers)
 
 ---
 
-## 6. Videos
+## Thank you!
 
-You can also embed videos from sources like YouTube.
+![bg left:57%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/good-the-bad-and-the-ugly-fr.jpg)
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/k_3Qp2ocI40"></iframe>
-
-<video src="https://www.youtube.com/embed/k_3Qp2ocI40" type="video/mp4">video</video>
-
-## 6a. HTML
-
-<h2 style="color: teal;">This is rendered as raw HTML</h2>
-<ul>
-  <li>HTML is supported with the right flags/settings!</li>
-  <li>Works in Marp preview and when exporting.</li>
-</ul>
+Thank you!
 
 ---
 
@@ -143,48 +168,9 @@ You can also embed videos from sources like YouTube.
 <!-- Can also do a multiline
 comment that will show in notes -->
 
-![Image](https://picsum.photos/800/600)
 
 ---
 
-## 10. Centered images
-
-You can center images
-
-![center](https://picsum.photos/800/600)
-
----
-
-## 11. Slide 4
-
-> This is a quote.
-
----
-
-![bg opacity](https://picsum.photos/800/600?image=53)
-
-## 13. Columns
-
-<div class="columns">
-<div>
-
-### Left
-
-- 1
-- 2
-
-</div>
-<div>
-
-### Right
-
-- 3
-- 4
-
-</div>
-</div>
-
----
 
 ## 14. Icons
 
@@ -194,29 +180,13 @@ You can center images
 <i class="fa fa-window-maximize"></i> Blog: 
 <i class="fa-brands fa-github"></i> GitHub: 
 
-[:fa fa-twitter:]
-
-[[:fa fa-solid fa fa-camera fa fa-stack-1x:]{.blue} [:fa fa-solid fa-ban fa fa-stack-2x:]{.red}]
-
-
 ---
 
 ## 15. <!--fit--> Large Text
 
 ---
 
-
 ## 16. Mermaid
-<!-- backgroundColor:rgb(236, 239, 202) -->
-
-<!-- Add this anywhere in your Markdown file -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-
-### Mermaid
 
 <div class="mermaid">
 mindmap
@@ -236,13 +206,5 @@ mindmap
       Pen and paper
       Mermaid
  </div>
-
----
-
-<!-- class: center -->
-
-## This slide is centered
-
-You can use the `center` class to center all the text on a slide.
 
 ---
