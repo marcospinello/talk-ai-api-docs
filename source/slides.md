@@ -6,7 +6,6 @@ footer: ''
 paginate: true
 style: |
     .fa-twitter { color: aqua; }
-    .fa-mastodon { color: purple; }
     .fa-linkedin { color: blue; }
     .fa-window-maximize { color: skyblue; }
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css'
@@ -14,7 +13,6 @@ style: |
 
 <script src="https://kit.fontawesome.com/51cb23fdb1.js" crossorigin="anonymous"></script>
 
-<!-- Add this anywhere in your Markdown file -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
