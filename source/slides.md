@@ -1,13 +1,11 @@
 ---
 marp: true
-theme: dracula
 header: ''
 footer: ''
 paginate: true
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
-    .fa-window-maximize { color: skyblue; }
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css'
 ---
 
@@ -21,6 +19,8 @@ style: |
 ## When AI goes off piste
 
 ### Tales from the docs pipelines
+
+/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/the-good-the-bad-and-the-ugly-fr.jpg
 
 by
 
@@ -95,7 +95,7 @@ Let's dig into the good, the bad, and the ugly.
 
 ## Good
 
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-2.jpg)  
+![bg contain](/assets/img/ai-api-docs-workflows-2.jpg)  
 
 ---
 
@@ -142,7 +142,7 @@ Let's dig into the good, the bad, and the ugly.
 
 ## Thank you!
 
-![bg left:57%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/good-the-bad-and-the-ugly-fr.jpg)
+![bg left:56%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
 
 Thank you!
 
@@ -173,9 +173,7 @@ comment that will show in notes -->
 ## 14. Icons
 
 <i class="fa-brands fa-twitter"></i> Twitter: 
-<i class="fa-brands fa-mastodon"></i> Mastodon: 
 <i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa fa-window-maximize"></i> Blog: 
 <i class="fa-brands fa-github"></i> GitHub: 
 
 ---

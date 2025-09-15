@@ -1,8 +1,8 @@
 allowLocalFiles: true
 inputDir: ./source
 output: ./output
-theme: dracula
-themeSet: ./assets/css
+theme: gaia
+# themeSet: ./assets/css
 author: Marco Spinello
 title: When AI goes off piste | Tales from the documentation pipelines
 pdf: true
