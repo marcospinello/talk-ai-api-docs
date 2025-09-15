@@ -1,7 +1,7 @@
 allowLocalFiles: true
 inputDir: ./source
 output: ./output
-theme: gaia
+theme: cybertopia
 # themeSet: ./assets/css
 author: Marco Spinello
 title: When AI goes off piste | Tales from the documentation pipelines

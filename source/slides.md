@@ -9,11 +9,14 @@ style: |
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css'
 ---
 
-<script src="https://kit.fontawesome.com/51cb23fdb1.js" crossorigin="anonymous"></script>
+<script
+    src="https://kit.fontawesome.com/51cb23fdb1.js"
+    crossorigin="anonymous">
+</script>
 
 <script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
 </script>
 
 ## When AI goes off piste
@@ -95,7 +98,7 @@ Let's dig into the good, the bad, and the ugly.
 
 ## Good
 
-![bg contain](/assets/img/ai-api-docs-workflows-2.jpg)  
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-2.jpg)  
 
 ---
 
@@ -113,15 +116,14 @@ Let's dig into the good, the bad, and the ugly.
 
 ## The value of APIs
 
-- orchestrators:
-  - coordinate AI agents
-  - manage tasks (queue, run, monitor)
-  - trigger actions (ex: webhooks)
-  - trigger notifications
+APIs are the plumbing of the pipelines: 
 
-- gophers
-  - CRUD on data
-  - AI sidekick when using MCP tools and resources
+| Gophers | Orchestrators |
+|---|---|
+| CRUD on data | Coordinate AI agents |
+| AI sidekick for MCP<br />tools and resources | Manage tasks<br />(queue, run, monitor) |
+| | Trigger actions<br />(ex: webhooks) |
+| | Trigger notifications |
 
 ---
 
@@ -140,11 +142,25 @@ Let's dig into the good, the bad, and the ugly.
 
 ---
 
-## Thank you!
+## AI fail winner
+
+...
+
+<i class="fa-solid fa-drum"></i>
+
+...
+
+---
+
+![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/gen-ai-ethical-ai.png)
+
+---
+
+## Merci beaucoup!
 
 ![bg left:56%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
 
-Thank you!
+Merci beaucoup!
 
 ---
 
@@ -178,10 +194,6 @@ comment that will show in notes -->
 
 ---
 
-## 15. <!--fit--> Large Text
-
----
-
 ## 16. Mermaid
 
 <div class="mermaid">
@@ -202,5 +214,3 @@ mindmap
       Pen and paper
       Mermaid
  </div>
-
----
