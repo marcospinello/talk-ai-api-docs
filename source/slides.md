@@ -1,14 +1,5 @@
 ---
 marp: true
-description: AI-enhanced docs pipelines can make stuff up
-keywords: [AI, API, documentation, automation pipeline]
-
-header:
-footer: "[`Back to Contents`](#2)"
-
-paginate: true
-transition: none
-
 size: 16:9
 lang: en
 
@@ -26,6 +17,8 @@ style: |
 
 ## When AI goes off script
 
+![bg left:50%](../assets/img/ai-generated-8764598_1280.jpg)
+
 ### Tales from the docs pipelines
 
 by
@@ -33,8 +26,6 @@ by
 Marco Spinello
 Senior technical writer
 Booking.com
-
-![bg left:50%](../assets/img/ai-generated-8764598_1280.jpg)
 
 ---
 

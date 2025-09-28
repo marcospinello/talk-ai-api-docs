@@ -4,6 +4,8 @@ output: ./output
 themeSet: ./assets/themes
 theme: einstein
 template: bespoke
+paginate: true
+transition: fade-out
 author: Marco Spinello
 title: When AI goes off script - Tales from the docs pipelines
 pdf: true
