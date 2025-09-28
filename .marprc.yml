@@ -2,7 +2,7 @@ allowLocalFiles: true
 inputDir: ./source
 output: ./output
 themeSet: ./assets/themes
-theme: dracula
+theme: orwell
 template: bespoke
 size: 16:9
 lang: en

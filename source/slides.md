@@ -149,7 +149,7 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ![bg left:50%](../assets/img/deceptive-wolves-1280.png)
 
-[Lying an scheming: Claude strategically mislead its creators during the training process to avoid being modified](https://time.com/7202784/ai-research-strategic-lying/)
+[Lying and scheming: Claude strategically misled its creators during the training process to avoid being modified](https://time.com/7202784/ai-research-strategic-lying/)
 
 ---
 
@@ -175,6 +175,6 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ---
 
-## Merci beaucoup! 🙏 
+## Merci beaucoup! 🙏
 
 ![bg left:50%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
