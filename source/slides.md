@@ -1,14 +1,11 @@
 ---
 marp: true
-title: When AI goes off script — Tales from the docs pipelines
-author: Marco Spinello
 description: AI-enhanced docs pipelines can make stuff up
 keywords: [AI, API, documentation, automation pipeline]
 
 header:
 footer: "[`Back to Contents`](#2)"
 
-theme: gödel
 paginate: true
 transition: none
 
@@ -21,15 +18,11 @@ style: |
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css'
 ---
 
-<script
-    src="https://kit.fontawesome.com/51cb23fdb1.js"
-    crossorigin="anonymous">
-</script>
-
+<!-- 
 <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
 </script>
+-->
 
 ## When AI goes off script
 
@@ -41,29 +34,29 @@ Marco Spinello
 Senior technical writer
 Booking.com
 
-![bg left:50%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-generated-8764598_1280.jpg)
+![bg left:50%](../assets/img/ai-generated-8764598_1280.jpg)
 
 ---
 
-![bg left:40%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/good-the-bad-and-the-ugly.jpg)
+![bg right:45%](../assets/img/good-the-bad-and-the-ugly.jpg)
 
-### <i class="fa-regular fa-face-smile"></i> The good
+### <i class="fa-regular fa-face-smile"></i><br />The good
 <br /><br /><br />
 
-### <i class="fa-regular fa-face-frown"></i> The bad
+### <i class="fa-regular fa-face-frown"></i><br />The bad
 <br /><br /><br />
 
-### <i class="fa-regular fa-face-angry"></i> The ugly
+### <i class="fa-regular fa-face-angry"></i><br />The ugly
 
 ---
 
 ## About me
 
-![bg left:50%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/valley-of-fires-105.jpg)
+![bg left:50%](../assets/img/valley-of-fires-105.jpg)
 
-- Tech writer with no CS background
-- Before AI, Google and StackOverflow were my job security
-- As curious as a cat
+- ✍️ Tech writer with no CS background
+- 🔍 Before AI, Google and StackOverflow were my job security
+- 🐾 As curious as a cat
 
 ---
 
@@ -71,73 +64,127 @@ Booking.com
 
 Docs automation workflow main ingredients:
 
-- CI/CD pipelines
-- Lots of scripts and config files
-- Containers
-- APIs for data exchange and interoperability
-
-...
+- 🏗️ CI/CD pipelines
+- 📝 Scripts and config files
+- 🐳 Containers
+- 🌐 APIs for data exchange and interoperability 
+- ...
 
 ---
 
-![bg left:60%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-generated-8583250_1280.jpg)
+![bg right:65%](../assets/img/ai-generated-8583250_1280.jpg)
 
-Oh yes and AI to turn a robust pipeline into a house of cards
+... Oh yes, and AI to turn a robust pipeline into a house of cards 🙄
 
 ---
 
 ## AI-enhanced docs pipelines
 
-AI helps automate ancillary tasks:
+![bg left:50%](../assets/img/metropolis-clock-1927.jpg)
 
-- Simple
-- Repetitive
-- Time-consuming
+AI helps with ancillary tasks:
 
----
-
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-1.jpg)
+- 😌 Simple
+- 🔁 Repetitive
+- ⏳ Time-consuming
 
 ---
 
-So far, results have been a rather mixed bag.
-
-Let's dig into the good, the bad, and the ugly.
+<pre class="mermaid">
+---
+config:
+  theme: forest
+  look: handDrawn
+---
+flowchart TB
+    A["AI docs<br>automation<br>workflows"] --> B["Gather<br>and review<br>information"] & C["Author docs"] & D["SME<br>Review<br>docs, code"] & E["Bulk<br>operations"] & F["APIs"]
+    B --> G["Code repos<br>Jira issues"] & H["Wiki<br>GDocs"]
+    C --> J["Code<br>comments"] & K["README<br>in repos"]
+    D --> L["Code comments<br>Git PRs/MRs"] & M["README in repos<br>Wiki, GDocs articles"]
+    E --> N["img alt text"] & O["Missing<br>descriptions<br>"] & P["Translations"]
+    F --> Q["CRUD on data"] & R["Orchestration"]
+    R --> S["Coordinate<br>AI agents<br>"] & T["Triggers,<br>events,<br>actions,<br>notifications"] & U["Manage and<br>process<br>tasks/jobs"] & V["Indexing"]
+    A@{ shape: rounded}
+    B@{ shape: rounded}
+    C@{ shape: rounded}
+    D@{ shape: rounded}
+    E@{ shape: rounded}
+    F@{ shape: rounded}
+    G@{ shape: rounded}
+    H@{ shape: rounded}
+    J@{ shape: rounded}
+    K@{ shape: rounded}
+    L@{ shape: rounded}
+    M@{ shape: rounded}
+    N@{ shape: rounded}
+    O@{ shape: rounded}
+    P@{ shape: rounded}
+    Q@{ shape: rounded}
+    R@{ shape: rounded}
+    S@{ shape: rounded}
+    T@{ shape: rounded}
+    U@{ shape: rounded}
+    V@{ shape: rounded}
+    style A color:#616161
+    style F fill:#FFD600,stroke:#FF6D00
+    style Q fill:#FFD600,stroke:#FF6D00
+    style R fill:#FFD600,stroke:#FF6D00
+    style S fill:#FFD600,stroke:#FF6D00
+    style T fill:#FFD600,stroke:#FF6D00
+    style U stroke:#FF6D00,fill:#FFD600
+    style V fill:#FFD600,stroke:#FF6D00
+    linkStyle 4 stroke:#000000,fill:none
+    linkStyle 14 stroke:#000000,fill:none
+</pre>
 
 ---
 
-## Good
+![bg left:50%](../assets/img/ai-creepy-doll-1280.jpg)
 
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-2.jpg)  
-
----
-
-## Bad
-
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-3.jpg)
+So far, results have been a mixed bag:
+- Some good 👍
+- Some bad 👎
+- Some ugly 💩
 
 ---
 
-## Ugly
+## Good 👍
 
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows-4.jpg)
+
+
+---
+
+## Bad 👎
+
+
+
+---
+
+## Ugly 💩
+
+
 
 ---
 
 ## The value of APIs
 
-APIs are the plumbing of the pipelines: 
+APIs are the foundational plumbing of the pipelines:
 
 | Gophers | Orchestrators |
 |---|---|
-| CRUD on data | Coordinate AI agents |
-| AI sidekick for MCP<br />tools and resources | Manage tasks<br />(queue, run, monitor) |
-| | Trigger actions<br />(ex: webhooks) |
-| | Trigger notifications |
+| Retrieve data | Coordinate AI agents |
+| Create new data | AI sidekick for MCP interactions (ex: MCP tools and resources) |
+| Modify existing data | Manage tasks (queue, run, monitor) |
+| Delete data | Initiate actions (ex: webhooks) |
+| | Handle notifications |
 
 ---
 
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/ai-api-docs-workflows.jpg)
+![bg contain](../assets/img/ai-api-docs-workflows-5.jpg)
+
+---
+
+![bg contain](../assets/img/ai-api-docs-workflows.jpg)
 
 ---
 
@@ -162,65 +209,19 @@ APIs are the plumbing of the pipelines:
 
 ---
 
-![bg contain](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/gen-ai-ethical-ai.png)
+![bg contain](../assets/img/gen-ai-ethical-ai.png)
 
 ---
 
 ## Merci beaucoup!
 
-![bg left:56%](/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
+![bg left:56%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
 
 Merci beaucoup!
 
 ---
 
-<!-- backgroundColor: #2a2a2a -->
-## 7. Marp Directives
-
-### Local Directives (for a single slide)
-
-- `<!-- backgroundColor: #2a2a2a -->`
-- `<!-- color: #ffffff -->`
-- `<!-- header: 'Custom Slide Header' -->`
-
----
-
-
-
 ## 9. Speaker notes and images
 
 <!-- Can also do a multiline
 comment that will show in notes -->
-
-
----
-
-
-## 14. Icons
-
-<i class="fa-brands fa-twitter"></i> Twitter: 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa-brands fa-github"></i> GitHub: 
-
----
-
-## 16. Mermaid
-
-<div class="mermaid">
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      Popularization
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
- </div>
