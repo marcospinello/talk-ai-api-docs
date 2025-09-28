@@ -1,8 +1,20 @@
 ---
 marp: true
-header: ''
-footer: ''
+title: When AI goes off script — Tales from the docs pipelines
+author: Marco Spinello
+description: AI-enhanced docs pipelines can make stuff up
+keywords: [AI, API, documentation, automation pipeline]
+
+header:
+footer: "[`Back to Contents`](#2)"
+
+theme: gödel
 paginate: true
+transition: none
+
+size: 16:9
+lang: en
+
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
@@ -19,11 +31,9 @@ style: |
     mermaid.initialize({ startOnLoad: true });
 </script>
 
-## When AI goes off piste
+## When AI goes off script
 
 ### Tales from the docs pipelines
-
-/Users/mspinello/Documents/repos/gh/talk-ai-api-docs/assets/img/the-good-the-bad-and-the-ugly-fr.jpg
 
 by
 

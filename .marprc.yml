@@ -1,10 +1,10 @@
 allowLocalFiles: true
 inputDir: ./source
 output: ./output
+themeSet: ./assets/themes
 theme: cybertopia
-# themeSet: ./assets/css
 author: Marco Spinello
-title: When AI goes off piste | Tales from the documentation pipelines
+title: When AI goes off script - Tales from the docs pipelines
 pdf: true
 template: bespoke
 options:
