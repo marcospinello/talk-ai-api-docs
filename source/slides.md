@@ -20,23 +20,23 @@ style: |
 
 ### Tales from the docs pipelines
 
-by
-
-Marco Spinello
-Senior technical writer
+by \
+Marco Spinello \
+Senior technical writer \
 Booking.com
 
 ---
 
 ![bg right:45%](../assets/img/good-the-bad-and-the-ugly.jpg)
 
-### <i class="fa-regular fa-face-smile"></i><br />The good
+### <span><i class="fa-regular fa-face-smile"></i> The good</span>
 <br /><br /><br />
 
-### <i class="fa-regular fa-face-frown"></i><br />The bad
+### <span><i class="fa-regular fa-face-frown"></i> The bad</span>
 <br /><br /><br />
 
-### <i class="fa-regular fa-face-angry"></i><br />The ugly
+### <span><i class="fa-regular fa-face-angry"></i> The ugly</span>
+<br /><br /><br />
 
 ---
 
