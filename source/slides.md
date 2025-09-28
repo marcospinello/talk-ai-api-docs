@@ -1,8 +1,7 @@
 ---
 marp: true
-size: 16:9
-lang: en
-
+author: Marco Spinello
+title: When AI goes off script - Tales from the docs pipelines
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
@@ -65,7 +64,9 @@ Docs automation workflow main ingredients:
 
 ![bg right:65%](../assets/img/ai-generated-8583250_1280.jpg)
 
-... Oh yes, and AI to turn a robust pipeline into a house of cards 🙄
+... Oh yes, and AI to turn a robust pipeline into a house of cards
+
+🌬️ 💨 🎐 🌪️ 💥
 
 ---
 
@@ -81,7 +82,7 @@ AI helps with ancillary tasks:
 
 ---
 
-![AI and API docs automation](../assets/img/ai-api-docs-automation.svg)
+![AI and API docs automation](../assets/img/ai-api-docs-automation.png)
 
 ---
 
@@ -126,8 +127,7 @@ APIs are the foundational plumbing of the pipelines:
 
 ## AI fails 💥
 
-### <i class="fa-solid fa-quote-left"></i>*We spent 2 sprints building a whole backend to support a feature flag that didn't exist.*<i class="fa-solid fa-quote-right"></i>
-
+### <span><i class="fa-solid fa-quote-left"></i>*We spent 2 sprints building a whole backend to support a feature flag that didn't exist.*<i class="fa-solid fa-quote-right"></i></span>
 
 > At a Write The Docs meetup in Amsterdam last September.
 
@@ -175,6 +175,6 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ---
 
-## Merci beaucoup!
+## Merci beaucoup! 🙏 
 
 ![bg left:50%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
