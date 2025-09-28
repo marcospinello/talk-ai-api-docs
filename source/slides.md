@@ -90,52 +90,7 @@ AI helps with ancillary tasks:
 
 ---
 
-<pre class="mermaid">
----
-config:
-  theme: forest
-  look: handDrawn
----
-flowchart TB
-    A["AI docs<br>automation<br>workflows"] --> B["Gather<br>and review<br>information"] & C["Author docs"] & D["SME<br>Review<br>docs, code"] & E["Bulk<br>operations"] & F["APIs"]
-    B --> G["Code repos<br>Jira issues"] & H["Wiki<br>GDocs"]
-    C --> J["Code<br>comments"] & K["README<br>in repos"]
-    D --> L["Code comments<br>Git PRs/MRs"] & M["README in repos<br>Wiki, GDocs articles"]
-    E --> N["img alt text"] & O["Missing<br>descriptions<br>"] & P["Translations"]
-    F --> Q["CRUD on data"] & R["Orchestration"]
-    R --> S["Coordinate<br>AI agents<br>"] & T["Triggers,<br>events,<br>actions,<br>notifications"] & U["Manage and<br>process<br>tasks/jobs"] & V["Indexing"]
-    A@{ shape: rounded}
-    B@{ shape: rounded}
-    C@{ shape: rounded}
-    D@{ shape: rounded}
-    E@{ shape: rounded}
-    F@{ shape: rounded}
-    G@{ shape: rounded}
-    H@{ shape: rounded}
-    J@{ shape: rounded}
-    K@{ shape: rounded}
-    L@{ shape: rounded}
-    M@{ shape: rounded}
-    N@{ shape: rounded}
-    O@{ shape: rounded}
-    P@{ shape: rounded}
-    Q@{ shape: rounded}
-    R@{ shape: rounded}
-    S@{ shape: rounded}
-    T@{ shape: rounded}
-    U@{ shape: rounded}
-    V@{ shape: rounded}
-    style A color:#616161
-    style F fill:#FFD600,stroke:#FF6D00
-    style Q fill:#FFD600,stroke:#FF6D00
-    style R fill:#FFD600,stroke:#FF6D00
-    style S fill:#FFD600,stroke:#FF6D00
-    style T fill:#FFD600,stroke:#FF6D00
-    style U stroke:#FF6D00,fill:#FFD600
-    style V fill:#FFD600,stroke:#FF6D00
-    linkStyle 4 stroke:#000000,fill:none
-    linkStyle 14 stroke:#000000,fill:none
-</pre>
+![AI and API docs automation](../assets/img/ai-api-docs-automation.svg)
 
 ---
 
@@ -148,21 +103,15 @@ So far, results have been a mixed bag:
 
 ---
 
-## Good 👍
-
-
+![bg contain](../assets/img/ai-api-docs-automation-Good.png)
 
 ---
 
-## Bad 👎
-
-
+![bg contain](../assets/img/ai-api-docs-automation-Bad.png)
 
 ---
 
-## Ugly 💩
-
-
+![bg contain](../assets/img/ai-api-docs-automation-Ugly.png)
 
 ---
 
@@ -180,32 +129,54 @@ APIs are the foundational plumbing of the pipelines:
 
 ---
 
-![bg contain](../assets/img/ai-api-docs-workflows-5.jpg)
+![bg contain](../assets/img/api-in-ai-pipelines.png)
 
 ---
 
-![bg contain](../assets/img/ai-api-docs-workflows.jpg)
+## AI fails 💥
+
+### <i class="fa-solid fa-quote-left"></i>*We spent 2 sprints building a whole backend to support a feature flag that didn't exist.*<i class="fa-solid fa-quote-right"></i>
+
+
+> At a Write The Docs meetup in Amsterdam last September.
 
 ---
 
-## AI fails
+![bg left:50%](../assets/img/ai-customer-support.jpg)
 
-- [Therapy chatbot](https://futurism.com/therapy-chatbot-addict-meth)
-- [Blackmailing colleague](https://www.bbc.com/news/articles/cpqeng9d20go)
-- [Lying an scheming](https://time.com/7202784/ai-research-strategic-lying/)
-- [Running a company](https://futurism.com/professors-company-ai-agents) \
-  See also [The Agent Company](https://the-agent-company.com/)
-- [Customer support](https://futurism.com/klarna-ai-automation-engineers)
+[Company replaces customer support with AI, then panics and forces engineers to work the phones as the AI fails](https://futurism.com/klarna-ai-automation-engineers)
 
 ---
 
-## AI fail winner
+![bg right:50%](../assets/img/ai-corporate.jpg)
 
-...
+[Running a company](https://futurism.com/professors-company-ai-agents)
 
-<i class="fa-solid fa-drum"></i>
+See also [The Agent Company](https://the-agent-company.com/)
 
-...
+---
+
+![bg left:50%](../assets/img/deceptive-wolves-1280.png)
+
+[Lying an scheming: Claude strategically mislead its creators during the training process to avoid being modified](https://time.com/7202784/ai-research-strategic-lying/)
+
+---
+
+![bg right:40%](../assets/img/clown-threaten-1920.jpg)
+
+[AI system resorts to blackmail if told it will be removed](https://www.bbc.com/news/articles/cpqeng9d20go)
+
+---
+
+![bg left:90%](../assets/img/ai-therapist.png)
+
+[Therapist](https://futurism.com/therapy-chatbot-addict-meth)
+
+---
+
+## And the winner is... <i class="fa-solid fa-drum"></i>
+
+... 🥁 ...
 
 ---
 
@@ -215,13 +186,4 @@ APIs are the foundational plumbing of the pipelines:
 
 ## Merci beaucoup!
 
-![bg left:56%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
-
-Merci beaucoup!
-
----
-
-## 9. Speaker notes and images
-
-<!-- Can also do a multiline
-comment that will show in notes -->
+![bg left:50%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
