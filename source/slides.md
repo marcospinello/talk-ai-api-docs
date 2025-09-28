@@ -82,7 +82,7 @@ AI helps with ancillary tasks:
 
 ---
 
-![AI and API docs automation](../assets/img/ai-api-docs-automation.png)
+![bg contain](../assets/img/ai-api-docs-automation.png)
 
 ---
 
@@ -129,7 +129,7 @@ APIs are the foundational plumbing of the pipelines:
 
 ### <span><i class="fa-solid fa-quote-left"></i>*We spent 2 sprints building a whole backend to support a feature flag that didn't exist.*<i class="fa-solid fa-quote-right"></i></span>
 
-> At a Write The Docs meetup in Amsterdam last September.
+(At a Write The Docs meetup in Amsterdam last September.)
 
 ---
 
