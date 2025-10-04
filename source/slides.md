@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Marco Spinello
-title: When AI goes off script - Tales from the docs pipelines
+title: When AI goes off-script - Tales from the docs pipelines
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
@@ -14,13 +14,14 @@ style: |
 </script>
 -->
 
-## When AI goes off script
+## When AI goes off-script
 
 ![bg left:50%](../assets/img/ai-generated-8764598_1280.jpg)
 
 ### Tales from the docs pipelines
 
-by \
+by
+
 Marco Spinello \
 Senior technical writer \
 Booking.com
@@ -66,7 +67,7 @@ Docs automation workflow main ingredients:
 
 ... Oh yes, and AI to turn a robust pipeline into a house of cards
 
-🌬️ 💨 🎐 🌪️ 💥
+🌬️ 💨 🎐 🌪️ 🤖 💥
 
 ---
 
@@ -115,9 +116,13 @@ APIs are the foundational plumbing of the pipelines:
 |---|---|
 | Retrieve data | Coordinate AI agents |
 | Create new data | AI sidekick for MCP interactions (ex: MCP tools and resources) |
-| Modify existing data | Manage tasks (queue, run, monitor) |
-| Delete data | Initiate actions (ex: webhooks) |
+| Modify existing data | Manage tasks/jobs (queue, run, monitor) |
+| Delete data | Trigger actions (ex: webhooks) |
 | | Handle notifications |
+
+---
+
+Would you delegate authentication and authorization to AI?
 
 ---
 
