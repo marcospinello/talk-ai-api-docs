@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Marco Spinello
-title: When AI goes off-script - Tales from the docs pipelines
+title: When AI goes off script - Tales from the docs pipelines
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
@@ -14,7 +14,7 @@ style: |
 </script>
 -->
 
-## When AI goes off-script
+## When AI goes off script
 
 ![bg left:50%](../assets/img/ai-generated-8764598_1280.jpg)
 
@@ -22,7 +22,7 @@ style: |
 
 by
 
-Marco Spinello \
+*Marco Spinello* \
 Senior technical writer \
 Booking.com
 
@@ -53,7 +53,7 @@ Booking.com
 
 ## Docs automation
 
-Docs automation workflow main ingredients:
+Docs automation workflow standard ingredients:
 
 - 🏗️ CI/CD pipelines
 - 📝 Scripts and config files
@@ -80,6 +80,8 @@ AI helps with ancillary tasks:
 - 😌 Simple
 - 🔁 Repetitive
 - ⏳ Time-consuming
+
+<!-- AI is good at probabilistic quality: good enough. Bad at deterministic quality: exact, repeatable, always 100% consistent -->
 
 ---
 
@@ -120,9 +122,7 @@ APIs are the foundational plumbing of the pipelines:
 | Delete data | Trigger actions (ex: webhooks) |
 | | Handle notifications |
 
----
-
-Would you delegate authentication and authorization to AI?
+<!-- For example: Would you delegate authentication and authorization to AI? -->
 
 ---
 
@@ -177,6 +177,9 @@ See also [The Agent Company](https://the-agent-company.com/)
 ---
 
 ![bg contain](../assets/img/gen-ai-ethical-ai.png)
+
+<!-- Newfoundland, CA. Report to shape their education roadmap for the next 10 years.
+    Even with AI and fake sources, it took 18 months -->
 
 ---
 
