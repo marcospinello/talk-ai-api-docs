@@ -2,6 +2,8 @@
 marp: true
 author: Marco Spinello
 title: When AI goes off script - Tales from the docs pipelines
+description: Success and failure stories of AI-enhanced docs pipelines
+keywords: [APIs, AI, docs, documentation, automation, pipelines]
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
