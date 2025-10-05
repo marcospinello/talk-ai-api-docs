@@ -2,8 +2,6 @@
 marp: true
 author: Marco Spinello
 title: When AI goes off script - Tales from the docs pipelines
-description: Success and failure stories of AI-enhanced docs pipelines
-keywords: [APIs, AI, docs, documentation, automation, pipelines]
 style: |
     .fa-twitter { color: aqua; }
     .fa-linkedin { color: blue; }
@@ -94,6 +92,7 @@ AI helps with ancillary tasks:
 ![bg left:50%](../assets/img/ai-creepy-doll-1280.jpg)
 
 So far, results have been a mixed bag:
+
 - Some good 👍
 - Some bad 👎
 - Some ugly 💩
@@ -114,21 +113,50 @@ So far, results have been a mixed bag:
 
 ## The value of APIs
 
-APIs are the foundational plumbing of the pipelines:
+![bg right:50%](../assets/img/ai-plumbing_1280.jpg)
 
-| Gophers | Orchestrators |
-|---|---|
-| Retrieve data | Coordinate AI agents |
-| Create new data | AI sidekick for MCP interactions (ex: MCP tools and resources) |
-| Modify existing data | Manage tasks/jobs (queue, run, monitor) |
-| Delete data | Trigger actions (ex: webhooks) |
-| | Handle notifications |
+Foundational plumbing:
 
-<!-- For example: Would you delegate authentication and authorization to AI? -->
+| Gofers |
+|:---|
+| Retrieve data |
+| Create new data |
+| Modify existing data |
+| Delete data |
+
+---
+
+![bg left:40%](../assets/img/ai-manage1280.jpg)
+
+| Orchestrators |
+|:---|
+| Coordinate AI agents |
+| AI sidekick for MCP interactions (ex: MCP tools and resources) |
+| Manage tasks/jobs (queue, run, monitor) |
+| Trigger actions (ex: webhooks) |
+| Handle notifications |
+
 
 ---
 
 ![bg contain](../assets/img/api-in-ai-pipelines.png)
+
+---
+
+![bg right:40%](../assets/img/api-or-ai.jpg)
+
+## APIs vs AI
+
+Depending on desired outcomes:
+
+| APIs | AI |
+|:---|:---|
+| Deterministic | Probabilistic |
+| Predictable | Variable |
+| Consistent | Inconsistent |
+| Accurate | Approximate |
+
+<!-- For example: Would you delegate authentication and authorization to AI? -->
 
 ---
 
@@ -168,7 +196,7 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ![bg left:90%](../assets/img/ai-therapist.png)
 
-[Therapist](https://futurism.com/therapy-chatbot-addict-meth)
+[Shrink](https://futurism.com/therapy-chatbot-addict-meth)
 
 ---
 
