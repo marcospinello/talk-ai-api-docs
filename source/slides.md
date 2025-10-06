@@ -143,7 +143,7 @@ Foundational plumbing:
 
 ---
 
-![bg right:40%](../assets/img/api-or-ai.jpg)
+![bg right:50%](../assets/img/ai-or-api-landscape.jpg)
 
 ## APIs vs AI
 
@@ -155,6 +155,7 @@ Depending on desired outcomes:
 | Predictable | Variable |
 | Consistent | Inconsistent |
 | Accurate | Approximate |
+| Rate limits | Tokens |
 
 <!-- For example: Would you delegate authentication and authorization to AI? -->
 
