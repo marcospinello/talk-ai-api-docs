@@ -46,26 +46,26 @@ Booking.com
 ![bg left:50%](../assets/img/valley-of-fires-105.jpg)
 
 - ✍️ Tech writer with no CS background
-- 🔍 Before AI, Google and StackOverflow were my job security
-- 🐾 As curious as a cat
+- 🔍 Before AI, Google and Stack Overflow were my job security
+- 😺 🐾 As curious as a cat
 
 ---
 
 ## Docs automation
 
-Docs automation workflow standard ingredients:
+Docs automation ingredients:
 
 - 🏗️ CI/CD pipelines
 - 📝 Scripts and config files
 - 🐳 Containers
-- 🌐 APIs for data exchange and interoperability 
+- 🌐 APIs for data exchange and interoperability
 - ...
 
 ---
 
 ![bg right:65%](../assets/img/ai-generated-8583250_1280.jpg)
 
-... Oh yes, and AI to turn a robust pipeline into a house of cards
+... and AI to turn a robust pipeline into a house of cards
 
 🌬️ 💨 🎐 🌪️ 🤖 💥
 
@@ -81,7 +81,8 @@ AI helps with ancillary tasks:
 - 🔁 Repetitive
 - ⏳ Time-consuming
 
-<!-- AI is good at probabilistic quality: good enough. Bad at deterministic quality: exact, repeatable, always 100% consistent -->
+<!-- AI is good at probabilistic quality: good enough.
+     It's Bad at deterministic quality: exact, repeatable, always 100% consistent -->
 
 ---
 
@@ -91,7 +92,7 @@ AI helps with ancillary tasks:
 
 ![bg left:50%](../assets/img/ai-creepy-doll-1280.jpg)
 
-So far, results have been a mixed bag:
+Results so far are a mixed bag:
 
 - Some good 👍
 - Some bad 👎
@@ -131,11 +132,49 @@ Foundational plumbing:
 | Orchestrators |
 |:---|
 | Coordinate AI agents |
-| AI sidekick for MCP interactions (ex: MCP tools and resources) |
-| Manage tasks/jobs (queue, run, monitor) |
-| Trigger actions (ex: webhooks) |
+| AI sidekick for MCP interactions<br />(ex: MCP tools and resources) |
+| Manage tasks/jobs<br />(queue, run, monitor) |
+| Trigger actions<br />(ex: webhooks) |
 | Handle notifications |
 
+<!-- Mention Cloudflare blog:
+
+https://blog.cloudflare.com/code-mode/
+
+See also: https://github.com/jx-codes/codemode-mcp
+
+## Code Mode: the better way to use MCP
+
+Main points and key takeaways
+
+### Main Points
+
+- Many AI agents use MCP (Model Context Protocol) by exposing "tools" directly to LLMs (Large Language Models), but this is not optimal.
+
+- Cloudflare's new approach is to convert MCP tools into a TypeScript API and have LLMs write code that calls these APIs in a sandboxed environment.
+
+- LLMs are significantly better at writing code to interact with APIs than making direct tool calls due to extensive code in their training sets, making this method more scalable and flexible.
+
+- MCP acts as a uniform protocol to expose APIs with documentation and authorization, making it easier for AI agents to discover and use new APIs securely.
+
+- Cloudflare's "Code Mode" leverages their Workers platform, using lightweight, secure V8 isolates instead of containers to execute code snippets for each agent action.
+
+- The new Worker Loader API allows dynamic loading and execution of code isolates, providing a secure and efficient sandbox for AI agent operations, with minimal overhead and enhanced resource isolation.
+
+- The bindings approach allows the agent to call specific MCP services securely without general network access, solving issues related to API key leakage and ambiguous network filtering.
+
+### Key Takeaways
+
+- LLMs perform better when AI tools are presented as code APIs instead of contrived "tool calls" because real-world coding is more familiar to these models.
+
+- MCP remains valuable for its uniformity, enabling discoverable, secure API exposure, documentation, and authorization for AI agents.
+
+- Cloudflare's Code Mode introduces a practical paradigm: connect agents to APIs as TypeScript interfaces, execute LLM-generated code in secure sandboxes, and dispatch API calls only via authorized bindings.
+
+- The shift to code-centric tool invocation not only improves agent capability and scalability but also addresses security, isolation, and efficiency challenges in AI agent design.
+
+- Developers can experiment with this new model using Cloudflare’s Workers platform and the Agents SDK, with local and beta access options available.
+-->
 
 ---
 
@@ -157,25 +196,28 @@ Depending on desired outcomes:
 | Accurate | Approximate |
 | Rate limits | Tokens |
 
-<!-- For example: Would you delegate authentication and authorization to AI? -->
+<!-- For example:
+     Would you delegate authentication and authorization to AI? -->
 
 ---
+
+![bg left:40%](../assets/img/non-existing-feature-flag.jpg)
 
 ## AI fails 💥
 
 ### <span><i class="fa-solid fa-quote-left"></i>*We spent 2 sprints building a whole backend to support a feature flag that didn't exist.*<i class="fa-solid fa-quote-right"></i></span>
 
-(At a Write The Docs meetup in Amsterdam last September.)
+(DevOps at a Write The Docs meetup in Amsterdam last September)
 
 ---
 
-![bg left:50%](../assets/img/ai-customer-support.jpg)
+![bg right:50%](../assets/img/ai-customer-support.jpg)
 
 [Company replaces customer support with AI, then panics and forces engineers to work the phones as the AI fails](https://futurism.com/klarna-ai-automation-engineers)
 
 ---
 
-![bg right:50%](../assets/img/ai-corporate.jpg)
+![bg left:50%](../assets/img/ai-corporate.jpg)
 
 [Running a company](https://futurism.com/professors-company-ai-agents)
 
@@ -183,23 +225,25 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ---
 
-![bg left:50%](../assets/img/deceptive-wolves-1280.png)
+![bg right:50%](../assets/img/deceptive-wolves-1280.png)
 
 [Lying and scheming: Claude strategically misled its creators during the training process to avoid being modified](https://time.com/7202784/ai-research-strategic-lying/)
 
 ---
 
-![bg right:40%](../assets/img/clown-threaten-1920.jpg)
+![bg left:40%](../assets/img/clown-threaten-1920.jpg)
 
 [AI system resorts to blackmail if told it will be removed](https://www.bbc.com/news/articles/cpqeng9d20go)
 
 ---
 
-![bg left:90%](../assets/img/ai-therapist.png)
+![bg right:88%](../assets/img/ai-therapist.png)
 
 [Shrink](https://futurism.com/therapy-chatbot-addict-meth)
 
 ---
+
+![bg left:40%](../assets/img/ai-winner.png)
 
 ## And the winner is... <i class="fa-solid fa-drum"></i>
 
@@ -214,6 +258,6 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ---
 
-## Merci beaucoup! 🙏
+![bg right:50%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
 
-![bg left:50%](../assets/img/the-good-the-bad-and-the-ugly-fr.jpg)
+## Merci beaucoup! 🙏
