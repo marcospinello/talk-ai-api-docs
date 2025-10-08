@@ -81,8 +81,10 @@ AI helps with ancillary tasks:
 - 🔁 Repetitive
 - ⏳ Time-consuming
 
-<!-- AI is good at probabilistic quality: good enough.
-     It's Bad at deterministic quality: exact, repeatable, always 100% consistent -->
+<!--
+AI is good at probabilistic quality: good enough.
+It's bad at deterministic quality: exact, repeatable, always 100% consistent
+-->
 
 ---
 
@@ -102,9 +104,25 @@ Results so far are a mixed bag:
 
 ![bg contain](../assets/img/ai-api-docs-automation-Good.png)
 
+<!-- 
+It produces docs that:
+- look good: good English
+- look plausible: they kinda make sense, unless you start checking them for accuracy and correctness.
+
+English !== Docs
+-->
+
 ---
 
 ![bg contain](../assets/img/ai-api-docs-automation-Bad.png)
+
+<!--
+AI pitfalls:
+- does not say 'no'
+- does not say 'i don't know'
+
+To workaround these limitations, it goes to great lengths to create plausible, reasonable alternatives that however aren't factual.
+-->
 
 ---
 
@@ -121,8 +139,8 @@ Foundational plumbing:
 | Gofers |
 |:---|
 | Retrieve data |
-| Create new data |
-| Modify existing data |
+| Create data |
+| Modify data |
 | Delete data |
 
 ---
@@ -196,8 +214,11 @@ Depending on desired outcomes:
 | Accurate | Approximate |
 | Rate limits | Tokens |
 
-<!-- For example:
-     Would you delegate authentication and authorization to AI? -->
+<!--
+For example:
+Would you delegate authentication and authorization to AI?
+Or execute an online payment transaction through a 100% AI solution?
+-->
 
 ---
 
@@ -215,6 +236,10 @@ Depending on desired outcomes:
 
 [Company replaces customer support with AI, then panics and forces engineers to work the phones as the AI fails](https://futurism.com/klarna-ai-automation-engineers)
 
+<!--
+Klarna fired all human CS then forced engineers to pick up the phone and do customer support
+-->
+
 ---
 
 ![bg left:50%](../assets/img/ai-corporate.jpg)
@@ -222,6 +247,12 @@ Depending on desired outcomes:
 [Running a company](https://futurism.com/professors-company-ai-agents)
 
 See also [The Agent Company](https://the-agent-company.com/)
+
+<!--
+Carnegie Mellon University
+AI agents based on Google, OpenAI, Anthropic and Meta
+They filled roles as financial analysts, software engineers, and project managers, working alongside simulated coworkers like a faux-HR department and a chief technical officer.
+-->
 
 ---
 
@@ -237,13 +268,13 @@ See also [The Agent Company](https://the-agent-company.com/)
 
 ---
 
-![bg right:88%](../assets/img/ai-therapist.png)
+![bg right:89%](../assets/img/ai-therapist.png)
 
 [Shrink](https://futurism.com/therapy-chatbot-addict-meth)
 
 ---
 
-![bg left:40%](../assets/img/ai-winner.png)
+![bg left:50%](../assets/img/ai-winner.png)
 
 ## And the winner is... <i class="fa-solid fa-drum"></i>
 
